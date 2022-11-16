@@ -13,29 +13,38 @@ a {
 }
 .logo-blue {
   font-family: "Raleway", sans-serif;
-  font-style: bold;
+  font-style: normal;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  letter-spacing: 0.03em;
   color: var(--interaction-color);
 }
 .logo-black {
   font-family: "Raleway", sans-serif;
-  font-style: bold;
+  font-style: normal;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  letter-spacing: 0.03em;
   color: #000000;
 }
 .logo-white {
   font-family: "Raleway", sans-serif;
-  font-style: bold;
+  font-style: normal;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .nav-link {
   color: var(--darker-text-color);
   font-weight: 500;
   line-height: 1.1;
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0.02em;
 }
 .header-contact {
   color: var(--text-color);
@@ -53,8 +62,11 @@ a {
 .title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.2;
+  line-height: 1.36;
   color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-style: normal;
 }
 [type="button"] {
   cursor: pointer;
@@ -62,12 +74,16 @@ a {
 .order-button {
   background-color: var(--interaction-color);
   color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
 }
 h3 {
   color: var(--darker-text-color);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
+  text-transform: uppercase;
 }
 .main-description {
   color: var(--text-color);
@@ -88,16 +104,35 @@ h2 {
 .worker-job {
   color: var(--text-color);
 }
+.filter ul {
+  list-style: none;
+}
 .filter-button {
   background-color: var(--buttons-and-background);
   color: var(--darker-text-color);
   font-style: medium;
   line-height: 1.39;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--interaction-color);
   color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.list-item {
+  color: var(--darker-text-color);
+  font-size: 18px;
+  line-height: 1.71;
+  font-weight: 700;
+}
+.list-item-type {
+  color: var(--text-color);
+  line-height: 1.6;
 }
 /*--------------------------------FOOTER---------------------------------------*/
 footer {
@@ -114,3 +149,4 @@ address {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
 }
+/* WHITE LOGO PART IS AT THE BEGGINING WITH THE REST OF LOGO PARTS */
