@@ -88,6 +88,17 @@ h2 {
 .worker-job {
   color: var(--text-color);
 }
+.filter-button {
+  background-color: var(--buttons-and-background);
+  color: var(--darker-text-color);
+  font-style: medium;
+  line-height: 1.39;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--interaction-color);
+  color: #ffffff;
+}
 /*--------------------------------FOOTER---------------------------------------*/
 footer {
   width: 1600px;
@@ -101,6 +112,5 @@ address {
 }
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
   line-height: 1.71;
 }
