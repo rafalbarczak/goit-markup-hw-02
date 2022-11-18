@@ -48,7 +48,7 @@ body {
 .header-contact:hover,
 .header-contact:focus,
 .contact-footer:hover,
-.contact-footer-number:hover {
+.contact-footer-underlined:hover {
   color: var(--interaction-color);
 }
 /*---------------------------------MAIN----------------------------------------*/
@@ -64,17 +64,15 @@ body {
   letter-spacing: 0.06em;
   font-style: normal;
 }
-[type="button"] {
-  cursor: pointer;
-  outline: none;
-  border: none;
-}
 .order-button {
   background-color: var(--interaction-color);
   color: var(--white);
   font-size: 16px;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  outline: none;
+  border: none;
 }
 .article-title {
   font-size: 14px;
@@ -110,6 +108,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  outline: none;
+  border: none;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -139,11 +140,11 @@ body {
   font-style: normal;
   font-size: 14px;
 }
-.contact-footer {
+.contact-footer-underlined {
   color: var(--transparent-white);
   line-height: 1.71;
 }
-.contact-footer-number {
+.contact-footer {
   color: var(--transparent-white);
   line-height: 1.71;
   text-decoration: none;
