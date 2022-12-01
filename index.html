@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -13,28 +17,30 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-black">Studio</span></a
+      <div class="container flex-nav-container">
+        <nav class="flex-inner-nav">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-black">Studio</span></a
+          >
+          <ul class="nav-list">
+            <li><a href="#">Agencja</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <a class="header-contact" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
         >
-        <ul class="nav-list">
-          <li><a href="#">Agencja</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
-        </ul>
-      </nav>
-      <a class="header-contact" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="header-contact" href="tel:+48111111111">+48 111 111 111</a>
+        <a class="header-contact" href="tel:+48111111111">+48 111 111 111</a>
+      </div>
     </header>
     <main>
-      <div class="main-order">
+      <div class="main-order container section">
         <h1 class="title">Efektywne rozwiązania dla waszego biznesu</h1>
         <button class="order-button" type="button">Zamów usługe</button>
       </div>
-      <section>
-        <ul>
+      <section class="container section">
+        <ul class="article-flex-container">
           <li>
             <article>
               <h3 class="article-title">Lorem ipsum</h3>
@@ -73,8 +79,9 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="container section negative-margin-top">
         <h2 class="section-title">Czym się zajmujemy</h2>
+        <div class="images-flex-container">
         <img
           src="./images/img1.jpg"
           alt="hands typing code on a keyboard"
@@ -93,10 +100,11 @@
           width="370"
           height="294"
         />
+        </div>
       </section>
-      <section>
+      <section class="container section grey-background">
         <h2 class="section-title">Nasz zespół</h2>
-        <ul>
+        <ul class="workers-list">
           <li>
             <figure>
               <img
