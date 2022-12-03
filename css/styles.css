@@ -90,9 +90,6 @@ body {
   color: var(--interaction-color);
 }
 /*---------------------------------MAIN----------------------------------------*/
-.main-order {
-  background-color: var(--brand-gray);
-}
 .title {
   font-weight: 900;
   font-size: 44px;
@@ -157,12 +154,25 @@ body {
   padding-top: 50px;
   gap: 30px;
 }
+.dark-background {
+  background-color: var(--brand-gray);
+  width: 1600px;
+  padding: 0;
+  margin: 0 auto;
+}
+.white-background {
+  width: 1600px;
+  padding: 0;
+  margin: 0 auto;
+}
 .grey-background {
   background-color: var(--buttons-and-background);
+  width: 1600px;
+  padding: 0;
+  margin: 0 auto;
 }
 .workers-list {
   display: flex;
-
   list-style: none;
   padding-left: 15px;
   padding-right: 15px;
@@ -216,14 +226,24 @@ body {
 }
 /*--------------------------------FOOTER---------------------------------------*/
 .container-footer {
-  width: 1600px;
-  height: 252px;
   background-color: var(--brand-gray);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 15px;
+  box-sizing: content-box;
+}
+.container-footer .logo {
+  padding: 0;
+  margin: 0;
 }
 .container-footer address {
   color: var(--white);
   font-style: normal;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 .contact-footer-underlined {
   color: var(--transparent-white);
